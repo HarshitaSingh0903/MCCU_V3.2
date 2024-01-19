@@ -1,0 +1,497 @@
+/*= Style for mainwindow START
+  ==================================================== */
+	#MainWindow {
+		background-color: #fff;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for button to change menu style START
+  ==================================================== */
+
+	#widget {
+		background-color: rgb(208, 205, 204)
+	}
+	#top_right_widget QPushButton{
+		height:40px;
+		width: 30px;
+		border:none;
+	}
+	
+	#top_right_widget QPushButton:hover {
+		border: 1px solid rgb(68, 68, 68);
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+	
+	#top_right_widget QPushButton:checked {
+		border: 1px solid rgb(68, 68, 68);
+		background-color: rgba(255, 255, 255);
+	} 
+	#loginBtn {
+		background-color: #55aa7f;
+	}
+	
+	#loginBtn:hover, #loginBtn:pressed{
+		background-color: #3aad00;
+	}
+	
+
+/*= Style for menu with icon only START */
+
+  	/* style for widget */
+	#icon_only_widget {
+		background-color: rgb(208, 205, 204);
+		width:35px;
+	}
+
+	#saveBtn {
+		height:30px;
+		border:none;
+		background-color: #55aa7f;
+	}
+	#saveBtn:hover, #saveBtn:pressed{
+		background-color: #3aad00;
+	}
+
+	#cancelBtn{
+		height:30px;
+		border:none;
+		background-color: #d10000;
+	}
+	#cancelBtn:hover, #cancelBtn:pressed{
+		background-color: #910000;
+	}
+    /* style for QPushButton and QLabel */
+	#icon_only_widget QPushButton, QLabel {
+		height:35px;
+		width: 35px;
+		border:none;
+		/* border-bottom: 1px solid #b0b0b0; */
+	}
+
+	#icon_only_widget QPushButton:hover {
+		border: 1px solid rgb(68, 68, 68);
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+	#icon_only_widget QPushButton:checked {
+		border: 1px solid rgb(68, 68, 68);
+		background-color: rgba(255, 255, 255);
+		/* background:  rgb(158, 143, 139); */
+	}
+	/* style for logo image */
+	#logo_label_1 {
+		padding: 5px
+	}
+	#frame_9  QPushButton{
+		background-color: rgb(255, 255, 255);
+		border-radius:5px;
+		border : 2px solid black;
+		color: #000000;
+	}
+	
+	#widget_5  {
+		background-color: rgb(208, 205, 204);
+		border-radius: 8px;
+		border: 2px solid #000000;
+	}
+	#widget_6  {
+		background-color: rgb(208, 205, 204);
+		border-radius: 8px;
+		border: 2px solid #000000;
+	}
+	#centerDesign  {
+		background-color: rgb(208, 205, 204);
+		border-radius: 8px;
+		border: 2px solid #000000;
+	}
+	
+	#widget_8  {
+		background-color: rgb(208, 205, 204);
+		border-radius: 8px;
+		border: 2px solid #000000;
+	}
+	#widget_11  {
+		background-color: rgb(208, 205, 204);
+		border-radius: 8px;
+		border: 2px solid #000000;
+	}
+	
+	#widget_14  {
+		background-color: rgb(208, 205, 204);
+		border-radius: 8px;
+		border: 2px solid #000000;
+	}
+	#widget_15  {
+		background-color: rgb(208, 205, 204);
+		border-radius: 8px;
+		border: 2px solid #000000;
+	}
+	#widget_16  {
+		background-color: rgb(208, 205, 204);
+		border: 2px solid #000000;
+	}
+	#widget_17  {
+		background-color: rgb(208, 205, 204);
+		border: 2px solid #000000;
+	}
+	#widget_18  {
+		background-color: rgb(208, 205, 204);
+		border: 2px solid #000000;
+	}
+	#CPU_info_frame  {
+		background-color: none;
+	}
+	#frame_14 {
+		background-color: rgb(176, 176, 176);
+	}
+	#frame_17,#frame_62, #frame_64, #frame_66, #frame_68, #frame_70,#frame_72,#frame_74 , #frame_76,#frame_78,#frame_80{
+		background-color: rgb(208, 205, 204);
+	}
+	#frame_60{
+		background-color: rgb(150, 150, 150);
+		border: 1px solid black;
+	}
+
+	#frame_15  {
+		background-color: none;
+	}
+	#lowerFrame {
+		background-color: rgb(208, 205, 204);
+		border-bottom: 2px solid #000000;
+		border-left:  2px solid #000000;
+		border-right:  2px solid #000000;
+	}
+	#upperGraph{
+		background-color: rgb(208, 205, 204);
+		border-top: 2px solid #000000;
+		border-left:  2px solid #000000;
+		border-right:  2px solid #000000;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon and text START
+  ==================================================== */
+
+	/* style for logo image */
+	#logo_label_2 {
+		padding: 5px;
+		color: #fff;
+	}
+
+	/* style for APP title */
+	#logo_label_3 {
+		padding-right: 10px;
+		color: #fff;
+	}
+
+ 
+  /* DASHBORAD SETTINGS  */
+
+	#dashboardStatusFrame QPushButton{
+		font: 87 10pt "Segoe UI Black";
+		border-radius: 5px;
+		color: #fff;
+		background-color: rgb(0, 100, 147);
+	}
+	#dashboardRightFrame QPushButton{
+		font: 87 10pt "Segoe UI Black";
+		border-radius: 5px;
+		background-color:rgb(0, 100, 147);
+	}
+
+	/* DIAGNOSTICS PAGE */
+
+	#diagnosticsPage QPushButton{
+		height: 40px;
+		font: 87 10pt "Segoe UI Black";
+		border-radius: 5px;
+		color: #fff;
+		background-color: rgb(0, 100, 147);
+	}
+
+	/* USER PAGE */
+	#changePassWidget {
+		
+		border: 1px solid rgb(113, 113, 113);
+		border-radius: 5px;
+	}
+	#logoutWidget {
+		border: 1px solid rgb(113, 113, 113);
+		border-radius: 5px;
+	}
+	#changePassOKbtn {
+		height:30px;
+		border:none;
+		background-color: #55aa7f;
+	}
+	#changePassOKbtn:hover, #changePassOKbtn:pressed{
+		background-color: #3aad00;
+		padding-left: 5px;
+	}
+	#changePassCancelBtn{
+		height:30px;
+		border:none;
+		background-color: #d10000;
+	}
+	#changePassCancelBtn:hover, #changePassCancelBtn:pressed{
+		background-color: #910000;
+		padding-left: 5px;
+	}
+	#logoutBtn {
+		height :30px;
+		font: 87 10pt "Segoe UI Black";
+		border-radius: 5px;
+		color: #fff;
+		background-color: #3554d1;
+	}
+	#logoutBtn:hover, #logoutBtn:pressed {
+		background-color: #0000ff;
+		padding-left: 5px;
+	}
+
+	/* SETTINGS  PAGE*/
+	#settingsTopArea {
+		border: 1px solid rgb(113, 113, 113);
+		border-radius: 5px;
+	}
+	#changeIPOkBtn {
+		height: 25px;
+		width: 75px;
+		background-color: #55aa7f;
+	}
+	#changeIPOkBtn:hover, #changeIPOkBtn:pressed{
+		background-color: #3aad00;
+		padding-left: 5px;
+	}
+	#pdfBtn {
+		height: 25px;
+		background-color: #55aa7f;
+	}
+	#pdfBtn:hover, #pdfBtn:pressed{
+		background-color: #3aad00;
+		padding-left: 5px;
+	}
+	#getWizInfoBtn {
+		height: 25px;
+		width: 75px;
+		background-color: #55aa7f;
+	}
+	#getWizInfoBtn:hover, #getWizInfoBtn:pressed{
+		background-color: #3aad00;
+		padding-left: 5px;
+	}
+
+	#changeIPCancelBtn{
+		height: 25px;
+		width: 75px;
+		background-color: #d10000;
+	}
+	#changeIPCancelBtn:hover, #changeIPCancelBtn:pressed{
+		background-color: #910000;
+		padding-left: 5px;
+	}
+	#config_btn {
+		height :30px;
+		font: 87 10pt "Segoe UI Black";
+		border-radius: 5px;
+		color: #fff;
+		background-color: #3554d1;
+	}
+	#config_btn:hover, #config_btn:pressed {
+		background-color: #0000ff;
+		padding-left: 5px;
+	}
+
+	/* file manager page */
+	#fileManagePage {
+		border: 1px solid rgb(113, 113, 113);
+		border-radius: 5px;
+	}
+	#openLogBtn {
+		height :30px;
+		font: 87 10pt "Segoe UI Black";
+		border-radius: 5px;
+		background-color: #7d8fd8;
+		color: #fff;
+	}
+	#openLogBtn:hover, #openLogBtn:pressed {
+		background-color: #0000ff;
+		padding-left: 5px;
+	}
+	#selectRowNoBtn {
+		height :30px;
+		font: 87 10pt "Segoe UI Black";
+		border-radius: 5px;
+		/* color: #fff; */
+		background-color: #3554d1;
+	}
+	#selectRowNoBtn:hover, #selectRowNoBtn:pressed {
+		background-color: #0000ff;
+		padding-left: 5px;
+	}
+	#showAllDataBtn {
+		height :30px;
+		font: 87 10pt "Segoe UI Black";
+		border-radius: 5px;
+		background-color: #55aa7f;
+	}
+	#showAllDataBtn:hover, #showAllDataBtn:pressed{
+		background-color: #3aad00;
+		padding-left: 5px;
+	}
+
+/* SHIP ANIMATION WIDGET */
+	#shipAnimWidget{
+		background-color: #e4e4e4;
+		border-radius: 5px;
+		border: 1px solid black;
+	}
+
+/*  grapg set widget  */
+#startPlotBtn {
+	height: 25px;
+	width: 85px;
+	background-color: #55aa7f;
+}
+#startPlotBtn:hover, #startPlotBtn:pressed{
+	background-color: #3aad00;
+	padding-left: 5px;
+}
+#stopPlotBtn {
+	height: 25px;
+	width: 85px;
+	background-color: #d10000;
+}
+#stopPlotBtn:hover, #stopPlotBtn:pressed{
+	background-color: #910000;
+	padding-left: 5px;
+}
+#clearPlotBtn {
+	height: 25px;
+	width: 85px;
+	background-color: #3554d1;
+}
+#clearPlotBtn:hover, #clearPlotBtn:pressed {
+	background-color: #0000ff;
+	padding-left: 5px;
+}
+
+
+/* satellite styling */
+#addSatBtn {
+	height: 25px;
+	width: 75px;
+	background-color: #55aa7f;
+}
+#addSatBtn:hover, #addSatBtn:pressed{
+	background-color: #3aad00;
+	padding-left: 5px;
+}
+#delSatBtn{
+	height: 25px;
+	width: 75px;
+	background-color: #d10000;
+}
+#delSatBtn:hover, #delSatBtn:pressed{
+	background-color: #910000;
+	padding-left: 5px;
+}
+#editSatBtn {
+	height :30px;
+	font: 87 10pt "Segoe UI Black";
+	border-radius: 5px;
+	color: #fff;
+	background-color: #3554d1;
+}
+#editSatBtn:hover, #editSatBtn:pressed {
+	background-color: #0000ff;
+	padding-left: 5px;
+}
+#widget_12  QPushButton{
+	height :30px;
+	width: 125px;
+	font: 87 10pt "Segoe UI Black";
+	border-radius: 5px;
+	color: #fff;
+	background-color: rgb(0, 100, 147);
+}
+#widget_12 QPushButton:hover ,QPushButton:pressed {
+	background-color: rgb(0, 35, 52);
+	padding-left: 5px;
+}
+#addSatBtn_2 {
+	height: 25px;
+	width: 75px;
+	background-color: #55aa7f;
+}
+#addSatBtn_2:hover, #addSatBtn_2:pressed{
+	background-color: #3aad00;
+	padding-left: 5px;
+}
+#editSatBtn_2 {
+	height: 25px;
+	width: 75px;
+	background-color: #55aa7f;
+}
+#editSatBtn_2:hover, #editSatBtn_2:pressed{
+	background-color: #3aad00;
+	padding-left: 5px;
+}
+#cancelAddSatBtn{
+	height: 25px;
+	width: 75px;
+	background-color: #d10000;
+}
+#cancelAddSatBtn:hover, #cancelAddSatBtn:pressed{
+	background-color: #910000;
+	padding-left: 5px;
+}
+#groupBox QLineEdit{
+	border: 1px solid #cfcfcf;
+	border-radius: 5px;
+	font-size: 12px;
+}
+#nextBtn {
+	height:30px;
+	border:none;
+	color: white;
+	font: bold; 
+	font-size:15px;
+	background-color: rgb(0, 100, 147);
+}
+#nextBtn:hover, #nextBtn:pressed{
+	background-color: rgb(0, 35, 52);
+	padding-left: 5px;
+}
+#prevBtn {
+	height:30px;
+	border:none;
+	color: white;
+	font: bold; 
+	font-size:15px;
+	background-color: rgb(0, 100, 147);
+}
+#prevBtn:hover, #prevBtn:pressed{
+	background-color: rgb(0, 35, 52);
+	padding-left: 5px;
+}
+
+#setManualBtn {
+	height: 25px;
+	width: 75px;
+	background-color: #55aa7f;
+	border: 2px solid green;
+}
+#setManualBtn:hover, #setManualBtn:pressed{
+	background-color: #3aad00;
+	padding-left: 5px;
+}
+#setGpsBtn ,#setSatManBtn, #startDemoBtn, #submit_button{
+	height: 25px;
+	background-color: #55aa7f;
+}
+#setGpsBtn:hover, #setGpsBtn:pressed, #setSatManBtn:hover, #setSatManBtn:pressed, #startDemoBtn:hover, #startDemoBtn:pressed, #submit_button:hover, #submit_button:pressed{
+	background-color: #3aad00;
+	padding-left: 5px;
+}

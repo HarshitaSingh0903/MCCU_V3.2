@@ -339,7 +339,7 @@ class UI(QMainWindow):
     def demoParmeters(self,azAngle, azDir, elAngle,elDir, xelAngle,xelDir, polAngle,   polDir):
         # print(azAngle, azDir,elAngle,elDir, xelAngle,xelDir,polAngle, polDir)
         angles= [polAngle*100, elAngle*100 , xelAngle*100,azAngle*100]
-        # print(angles)
+        x=6
         demoParameters = b''
         for i in angles:  
             angleInBytes = i.to_bytes(2, byteorder='big')
